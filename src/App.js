@@ -1,12 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
-import * as Accordion from "@radix-ui/react-accordion";
 import CheckboxDemo from "./CheckboxDemo";
+import { RadixTab } from "./radixTab";
+import { Button } from "@mui/material";
+import { MuiTab } from "./muiTab";
 
 function App() {
   return (
     <>
-      <CheckboxDemo></CheckboxDemo>
+      <RadixTab />
+      <MuiTab/>
     </>
   );
 }
